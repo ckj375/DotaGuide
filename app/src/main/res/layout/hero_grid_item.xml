@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+
+    <RelativeLayout
+        android:layout_width="60dp"
+        android:layout_height="72dp"
+        android:background="@drawable/hero_grid_item_selector">
+
+        <ImageView
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/default_image_cover_white" />
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="2dp" />
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/hero_grid_item_cover_selector" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="60dp"
+            android:layout_height="15dp"
+            android:layout_alignParentBottom="true"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="72dp"
+            android:background="@drawable/hero_gird_item_pressed_selector" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

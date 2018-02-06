@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/title_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_bar_height"
+        android:background="@color/title_bar_bg">
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+        <ImageView
+            android:layout_width="31dp"
+            android:layout_height="31dp"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="19dp"
+            android:src="@drawable/triangle_corner" />
+
+        <com.ckj.dotaraiders.util.RotateTextView
+            android:id="@+id/attr"
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="27dp"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            app:degree="-45" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/image_frame_selector" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="技能名称"
+            android:textColor="@android:color/white"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/hot_key"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@+id/name"
+            android:textColor="@android:color/white"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_view"
+        android:layout_margin="6dp"
+        android:text="技能介绍"
+        android:textColor="@color/text_dark_color"
+        android:textSize="14dp" />
+</LinearLayout>

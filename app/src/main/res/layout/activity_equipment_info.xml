@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/title_bar_height"
+            android:background="@color/title_bar_bg"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="物品详情"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/title_bar_text_size"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/basic_info_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="6dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/default_image_cover_gray" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/img"
+                    android:textColor="@color/text_dark_color"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/name"
+                    android:layout_marginTop="2dp"
+                    android:textColor="#FF8C00"
+                    android:textSize="12dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="6dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/desc_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:textColor="@color/text_dark_color"
+                android:textSize="14dp" />
+
+        </LinearLayout>
+
+        <!-- 合成配方 -->
+        <LinearLayout
+            android:id="@+id/request_goods_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="6dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:background="#DCDCDC"
+                android:gravity="center_vertical"
+                android:paddingLeft="2dp"
+                android:text="合成配方"
+                android:textColor="@color/text_dark_color"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/request_recyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:listSelector="@android:color/transparent" />
+
+        </LinearLayout>
+
+        <!-- 可升级为 -->
+        <LinearLayout
+            android:id="@+id/provide_goods_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="6dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:background="#DCDCDC"
+                android:gravity="center_vertical"
+                android:paddingLeft="2dp"
+                android:text="可升级为"
+                android:textColor="@color/text_dark_color"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/provide_recyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:listSelector="@android:color/transparent" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
+

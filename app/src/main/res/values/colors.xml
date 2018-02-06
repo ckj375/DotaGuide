@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F5F5F5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="title_bar_bg">#2B2B2B</color>
+    <color name="title_bar_text_color">#FFFFFF</color>
+
+    <color name="text_dark_color">#6B6B6B</color>
+
+    <color name="hpColor">#9DB843</color>
+    <color name="mpColor">#6495ED</color>
+</resources>

@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/title_bar_height"
+            android:background="@color/title_bar_bg"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/title_bar_text_size"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/basic_info_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="6dp">
+
+            <RelativeLayout
+                android:id="@+id/ll1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/img"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/default_image_cover_gray" />
+
+                <TextView
+                    android:id="@+id/hp"
+                    android:layout_width="60dp"
+                    android:layout_height="14dp"
+                    android:layout_below="@+id/img"
+                    android:layout_marginTop="6dp"
+                    android:background="@color/hpColor"
+                    android:gravity="center"
+                    android:text="0/0"
+                    android:textColor="@android:color/white"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:id="@+id/mp"
+                    android:layout_width="60dp"
+                    android:layout_height="14dp"
+                    android:layout_below="@+id/hp"
+                    android:layout_marginTop="2dp"
+                    android:background="@color/mpColor"
+                    android:gravity="center"
+                    android:text="0/0"
+                    android:textColor="@android:color/white"
+                    android:textSize="10dp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="6dp"
+                android:layout_toRightOf="@+id/ll1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/attr1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="力量："
+                    android:textColor="@color/text_dark_color"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/attr2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="攻击力："
+                    android:textColor="@color/text_dark_color"
+                    android:textSize="14dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="6dp"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@+id/ll1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/attr3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/attr1"
+                    android:layout_weight="1"
+                    android:text="敏捷："
+                    android:textColor="@color/text_dark_color"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/attr4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/attr2"
+                    android:layout_toRightOf="@+id/attr3"
+                    android:layout_weight="1"
+                    android:text="攻速："
+                    android:textColor="@color/text_dark_color"
+                    android:textSize="14dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="6dp"
+                android:layout_marginTop="40dp"
+                android:layout_toRightOf="@+id/ll1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/attr5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/attr3"
+                    android:layout_weight="1"
+                    android:text="智力："
+                    android:textColor="@color/text_dark_color"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/attr6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/attr4"
+                    android:layout_toRightOf="@+id/attr3"
+                    android:layout_weight="1"
+                    android:text="护甲："
+                    android:textColor="@color/text_dark_color"
+                    android:textSize="14dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="6dp"
+                android:layout_marginTop="66dp"
+                android:layout_toRightOf="@+id/ll1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/cooperateBtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="25dp"
+                        android:background="@drawable/cooperate_btn_bg_selector"
+                        android:gravity="center"
+                        android:paddingLeft="16dp"
+                        android:paddingRight="16dp"
+                        android:text="配合英雄"
+                        android:textColor="@android:color/white"
+                        android:textSize="16dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/restraintBtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="25dp"
+                        android:background="@drawable/restraint_btn_bg_selector"
+                        android:gravity="center"
+                        android:paddingLeft="16dp"
+                        android:paddingRight="16dp"
+                        android:text="克制英雄"
+                        android:textColor="@android:color/white"
+                        android:textSize="16dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <!-- 推荐加点方案 -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="6dp"
+            android:minHeight="50dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:background="#DCDCDC"
+                android:gravity="center_vertical"
+                android:paddingLeft="2dp"
+                android:text="推荐加点方案"
+                android:textColor="@color/text_dark_color"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <com.ckj.dotaraiders.CustomGridView
+                android:id="@+id/skill_order_grid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:horizontalSpacing="1dp"
+                android:listSelector="@android:color/transparent"
+                android:numColumns="6"
+                android:verticalSpacing="8dp" />
+
+            <TextView
+                android:id="@+id/skillOrderDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:textColor="@color/text_dark_color"
+                android:textSize="14dp" />
+        </LinearLayout>
+
+        <!-- 推荐出装 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="6dp"
+            android:minHeight="50dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:background="#DCDCDC"
+                android:gravity="center_vertical"
+                android:paddingLeft="2dp"
+                android:text="推荐出装"
+                android:textColor="@color/text_dark_color"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/equipments_recyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:listSelector="@android:color/transparent" />
+        </LinearLayout>
+
+        <!-- 技能介绍 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="6dp"
+            android:gravity="bottom"
+            android:minHeight="50dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:background="#DCDCDC"
+                android:gravity="center_vertical"
+                android:paddingLeft="2dp"
+                android:text="技能介绍"
+                android:textColor="@color/text_dark_color"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/skill_recyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:listSelector="@android:color/transparent" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
+
