@@ -28,7 +28,7 @@
                 android:textStyle="bold" />
         </LinearLayout>
 
-        <com.ckj.dotaraiders.CustomGridView
+        <com.ckj.dotaguide.CustomGridView
             android:id="@+id/heros_gridview"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

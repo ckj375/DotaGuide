@@ -1,27 +1,12 @@
-package com.ckj.dotaraiders.activity;
+package com.ckj.dotaguide.activity;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
-import com.ckj.dotaraiders.R;
-import com.ckj.dotaraiders.server.HttpClientGenerator;
-
-import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
-import org.jsoup.select.Elements;
-
-import java.io.IOException;
-import java.util.HashMap;
-
-import okhttp3.ResponseBody;
-import rx.Subscriber;
-import rx.android.schedulers.AndroidSchedulers;
-import rx.schedulers.Schedulers;
+import com.ckj.dotaguide.R;
 
 public class MainActivity extends AppCompatActivity {
 

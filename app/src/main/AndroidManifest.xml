@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.ckj.dotaraiders">
+    package="com.ckj.dotaguide">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:name=".CommonApplication"
+        android:name="com.ckj.dotaguide.CommonApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity
-            android:name=".activity.MainActivity"
+            android:name="com.ckj.dotaguide.activity.MainActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,13 +21,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".activity.HeroInfoActivity"
+            android:name="com.ckj.dotaguide.activity.HeroInfoActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activity.HerosActivity"
+            android:name="com.ckj.dotaguide.activity.HerosActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activity.EquipmentInfoActivity"
+            android:name="com.ckj.dotaguide.activity.EquipmentInfoActivity"
             android:screenOrientation="portrait" />
     </application>
 

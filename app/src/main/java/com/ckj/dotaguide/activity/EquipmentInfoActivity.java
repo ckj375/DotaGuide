@@ -1,4 +1,4 @@
-package com.ckj.dotaraiders.activity;
+package com.ckj.dotaguide.activity;
 
 import android.app.Activity;
 import android.content.Context;
@@ -12,9 +12,9 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
-import com.ckj.dotaraiders.R;
-import com.ckj.dotaraiders.adapter.EquipmentGoodsAdapter;
-import com.ckj.dotaraiders.server.HttpClientGenerator;
+import com.ckj.dotaguide.R;
+import com.ckj.dotaguide.adapter.EquipmentGoodsAdapter;
+import com.ckj.dotaguide.server.HttpClientGenerator;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;

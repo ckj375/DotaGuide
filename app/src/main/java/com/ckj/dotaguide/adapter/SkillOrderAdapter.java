@@ -1,4 +1,4 @@
-package com.ckj.dotaraiders.adapter;
+package com.ckj.dotaguide.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -8,7 +8,7 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
-import com.ckj.dotaraiders.R;
+import com.ckj.dotaguide.R;
 
 import java.util.ArrayList;
 

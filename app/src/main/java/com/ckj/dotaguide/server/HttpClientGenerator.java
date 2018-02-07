@@ -1,6 +1,6 @@
-package com.ckj.dotaraiders.server;
+package com.ckj.dotaguide.server;
 
-import com.ckj.dotaraiders.CommonApplication;
+import com.ckj.dotaguide.CommonApplication;
 
 import java.io.File;
 

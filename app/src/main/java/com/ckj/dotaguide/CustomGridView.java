@@ -1,4 +1,4 @@
-package com.ckj.dotaraiders;
+package com.ckj.dotaguide;
 
 import android.content.Context;
 import android.util.AttributeSet;

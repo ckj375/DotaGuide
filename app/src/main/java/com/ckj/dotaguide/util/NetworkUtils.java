@@ -1,4 +1,4 @@
-package com.ckj.dotaraiders.util;
+package com.ckj.dotaguide.util;
 
 import android.content.Context;
 import android.net.ConnectivityManager;

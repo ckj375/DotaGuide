@@ -1,4 +1,4 @@
-package com.ckj.dotaraiders.util;
+package com.ckj.dotaguide.util;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -6,7 +6,7 @@ import android.graphics.Canvas;
 import android.support.v7.widget.AppCompatTextView;
 import android.util.AttributeSet;
 
-import com.ckj.dotaraiders.R;
+import com.ckj.dotaguide.R;
 
 /**
  * Created by chenkaijian on 17-9-19.

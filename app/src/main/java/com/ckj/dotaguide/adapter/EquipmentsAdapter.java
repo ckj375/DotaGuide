@@ -1,4 +1,4 @@
-package com.ckj.dotaraiders.adapter;
+package com.ckj.dotaguide.adapter;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -7,8 +7,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.ckj.dotaraiders.CustomGridView;
-import com.ckj.dotaraiders.R;
+import com.ckj.dotaguide.CustomGridView;
+import com.ckj.dotaguide.R;
 
 import java.util.ArrayList;
 import java.util.HashMap;

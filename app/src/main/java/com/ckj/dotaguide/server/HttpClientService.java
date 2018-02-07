@@ -1,4 +1,4 @@
-package com.ckj.dotaraiders.server;
+package com.ckj.dotaguide.server;
 
 import okhttp3.ResponseBody;
 import retrofit2.http.GET;

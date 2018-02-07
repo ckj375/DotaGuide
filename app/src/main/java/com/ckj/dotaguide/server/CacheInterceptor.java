@@ -1,8 +1,8 @@
-package com.ckj.dotaraiders.server;
+package com.ckj.dotaguide.server;
 
 import android.content.Context;
 
-import com.ckj.dotaraiders.util.NetworkUtils;
+import com.ckj.dotaguide.util.NetworkUtils;
 
 import java.io.IOException;
 

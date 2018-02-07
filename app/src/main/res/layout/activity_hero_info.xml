@@ -239,7 +239,7 @@
                 android:textSize="18dp"
                 android:textStyle="bold" />
 
-            <com.ckj.dotaraiders.CustomGridView
+            <com.ckj.dotaguide.CustomGridView
                 android:id="@+id/skill_order_grid"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

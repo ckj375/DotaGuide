@@ -1,4 +1,4 @@
-package com.ckj.dotaraiders.activity;
+package com.ckj.dotaguide.activity;
 
 import android.app.Activity;
 import android.content.Context;
@@ -14,13 +14,13 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
-import com.ckj.dotaraiders.adapter.CooperateHerosAdapter;
-import com.ckj.dotaraiders.adapter.EquipmentsAdapter;
-import com.ckj.dotaraiders.adapter.SkillOrderAdapter;
-import com.ckj.dotaraiders.adapter.SkillsAdapter;
-import com.ckj.dotaraiders.R;
-import com.ckj.dotaraiders.server.HttpClientGenerator;
-import com.ckj.dotaraiders.util.RotateTextView;
+import com.ckj.dotaguide.adapter.CooperateHerosAdapter;
+import com.ckj.dotaguide.adapter.EquipmentsAdapter;
+import com.ckj.dotaguide.adapter.SkillOrderAdapter;
+import com.ckj.dotaguide.adapter.SkillsAdapter;
+import com.ckj.dotaguide.R;
+import com.ckj.dotaguide.server.HttpClientGenerator;
+import com.ckj.dotaguide.util.RotateTextView;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;

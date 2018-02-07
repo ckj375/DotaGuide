@@ -11,7 +11,7 @@
         android:textColor="@color/text_dark_color"
         android:textSize="16dp" />
 
-    <com.ckj.dotaraiders.CustomGridView
+    <com.ckj.dotaguide.CustomGridView
         android:id="@+id/goods_gridview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

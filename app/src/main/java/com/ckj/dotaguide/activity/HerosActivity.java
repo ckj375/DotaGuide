@@ -1,4 +1,4 @@
-package com.ckj.dotaraiders.activity;
+package com.ckj.dotaguide.activity;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -7,10 +7,10 @@ import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 
-import com.ckj.dotaraiders.CustomGridView;
-import com.ckj.dotaraiders.R;
-import com.ckj.dotaraiders.adapter.HerosAdapter;
-import com.ckj.dotaraiders.server.HttpClientGenerator;
+import com.ckj.dotaguide.CustomGridView;
+import com.ckj.dotaguide.R;
+import com.ckj.dotaguide.adapter.HerosAdapter;
+import com.ckj.dotaguide.server.HttpClientGenerator;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;

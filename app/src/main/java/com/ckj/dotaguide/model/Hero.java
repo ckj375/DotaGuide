@@ -1,4 +1,4 @@
-package com.ckj.dotaraiders.model;
+package com.ckj.dotaguide.model;
 
 import java.util.ArrayList;
 

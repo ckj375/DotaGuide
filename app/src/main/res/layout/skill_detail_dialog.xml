@@ -24,7 +24,7 @@
             android:layout_marginTop="19dp"
             android:src="@drawable/triangle_corner" />
 
-        <com.ckj.dotaraiders.util.RotateTextView
+        <com.ckj.dotaguide.util.RotateTextView
             android:id="@+id/attr"
             android:layout_width="23dp"
             android:layout_height="23dp"
