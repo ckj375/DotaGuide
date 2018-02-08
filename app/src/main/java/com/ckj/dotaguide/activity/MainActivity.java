@@ -4,25 +4,24 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.TextView;
 
 import com.ckj.dotaguide.R;
 
 public class MainActivity extends AppCompatActivity {
 
-    private TextView tv1;
-    private TextView tv2;
-    private TextView tv3;
-    private TextView tv4;
+    private View tv1;
+    private View tv2;
+    private View tv3;
+    private View tv4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        tv1 = (TextView) findViewById(R.id.textView1);
-        tv2 = (TextView) findViewById(R.id.textView2);
-        tv3 = (TextView) findViewById(R.id.textView3);
-        tv4 = (TextView) findViewById(R.id.textView4);
+        tv1 = findViewById(R.id.catalog1);
+        tv2 = findViewById(R.id.catalog2);
+        tv3 = findViewById(R.id.catalog3);
+        tv4 = findViewById(R.id.catalog4);
 
         tv1.setOnClickListener(new View.OnClickListener() {
 
