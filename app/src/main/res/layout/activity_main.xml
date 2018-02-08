@@ -94,27 +94,4 @@
         android:layout_alignParentBottom="true"
         android:background="#DCDCDC" />
 
-    <LinearLayout
-        android:id="@+id/catalog4"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:background="@drawable/catalog_item_selector"
-        android:gravity="center"
-        android:orientation="vertical">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/catalog3"
-            android:text="装备"
-            android:textSize="20dp" />
-
-    </LinearLayout>
-
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:layout_alignParentBottom="true"
-        android:background="#DCDCDC" />
-
 </LinearLayout>

@@ -12,7 +12,6 @@ public class MainActivity extends AppCompatActivity {
     private View tv1;
     private View tv2;
     private View tv3;
-    private View tv4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,7 +20,6 @@ public class MainActivity extends AppCompatActivity {
         tv1 = findViewById(R.id.catalog1);
         tv2 = findViewById(R.id.catalog2);
         tv3 = findViewById(R.id.catalog3);
-        tv4 = findViewById(R.id.catalog4);
 
         tv1.setOnClickListener(new View.OnClickListener() {
 
@@ -56,15 +54,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        tv4.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent();
-                intent.setClass(MainActivity.this, EquipmentInfoActivity.class);
-                startActivity(intent);
-            }
-        });
     }
 
 }
