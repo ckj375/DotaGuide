@@ -35,7 +35,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
-            android:layout_gravity="center"
             android:text="力量型英雄"
             android:textSize="20dp" />
 
@@ -44,7 +43,6 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:layout_alignParentBottom="true"
         android:background="#DCDCDC" />
 
     <LinearLayout
@@ -58,8 +56,6 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_below="@+id/catalog1"
             android:text="敏捷型英雄"
             android:textSize="20dp" />
 
@@ -68,7 +64,6 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:layout_alignParentBottom="true"
         android:background="#DCDCDC" />
 
     <LinearLayout
@@ -82,7 +77,6 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/catalog2"
             android:text="智力型英雄"
             android:textSize="20dp" />
 
@@ -91,7 +85,6 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:layout_alignParentBottom="true"
         android:background="#DCDCDC" />
 
 </LinearLayout>
