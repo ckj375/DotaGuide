@@ -106,7 +106,7 @@ public class EquipmentInfoActivity extends Activity {
     }
 
     private void getItem(int type) {
-        rx.Observable<ResponseBody> observable = null;
+        rx.Observable<ResponseBody> observable;
         if (type == 1) {
             String url = "http://dotadb.uuu9.com/items_index.aspx";
             observable = HttpClientGenerator.getHttpClientService().getItem(url, itemid);

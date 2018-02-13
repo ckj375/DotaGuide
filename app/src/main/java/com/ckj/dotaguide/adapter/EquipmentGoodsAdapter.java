@@ -24,7 +24,7 @@ public class EquipmentGoodsAdapter extends RecyclerView.Adapter<EquipmentGoodsAd
     private ArrayList datas;
     private OnItemClickListener listener = null;
 
-    public static interface OnItemClickListener {
+    public interface OnItemClickListener {
         void onItemClick(View view, int position);
     }
 

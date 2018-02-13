@@ -238,10 +238,8 @@ public class HeroInfoActivity extends Activity {
                                 for (Element good : goods) {
                                     String itemid = "";
                                     String href = good.getElementsByTag("a").attr("href");
-                                    /**
-                                     * http://dotadb.uuu9.com/items_index.aspx?itemid=reja
-                                     * http://db.dota.uuu9.com/goods/show/SoulRing
-                                     */
+                                    // http://dotadb.uuu9.com/items_index.aspx?itemid=reja
+                                    // http://db.dota.uuu9.com/goods/show/SoulRing
                                     if (href.contains("=")) {
                                         itemid = href.split("=")[1];
                                     }
