@@ -1,7 +1,8 @@
-# Dota攻略
-效果图：
+# DotaGuide
+
+效果图：  
 <center>
-![img](https://github.com/ckj375/img-folder/blob/master/dotaguide/dotaguide1.jpg)
-![img](https://github.com/ckj375/img-folder/blob/master/dotaguide/dotaguide2.jpg)
-![img](https://github.com/ckj375/img-folder/blob/master/dotaguide/dotaguide3.jpg)
+![img](https://github.com/ckj375/img-folder/blob/master/dotaguide/dotaguide1.jpg)  
+![img](https://github.com/ckj375/img-folder/blob/master/dotaguide/dotaguide2.jpg)  
+![img](https://github.com/ckj375/img-folder/blob/master/dotaguide/dotaguide3.jpg)  
 </center>
